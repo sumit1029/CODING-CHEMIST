@@ -5,7 +5,7 @@ var images = [
 
 var links = [
     'https://www.youtube.com/channel/UC3K2nGS4rvTfPlh-Rzx80OA',
-    'index.html'
+    'cv.html'
 ];
 
 var num = 0;
