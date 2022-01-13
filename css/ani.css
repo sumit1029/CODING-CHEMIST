@@ -1,0 +1,388 @@
+#body {
+    height: auto;
+    align-items: center;
+    padding: 1px;
+    margin-left: 500px;
+    margin-right: 625px;
+    margin-bottom: 0px;
+    margin-top: 138px;
+    height: 741px;
+    background-color: rgb(72, 255, 0);
+    position: relative;
+    top: -215px;
+
+    background: linear-gradient(
+        to top, 
+        #2cff8b 0%, 
+        #2cffca 50%, 
+        #1e5bb6 50%, 
+        #1e9fb6 100%
+    );
+    
+}
+
+#c1{
+    width: 100px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 228px;
+    left: 34px;
+    visibility:hidden;
+}
+#c2{
+    width: 60px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 210px;
+    left: 25px;
+    visibility:hidden;
+}
+
+#heli1{
+    height: 7px;
+    width: 26px;
+    background-color: rgb(224, 19, 207);
+    transform: rotate(180deg);
+    margin-left: 112px;
+    margin-top: 345px;
+    position: relative;
+    top: 265px;
+    transform-origin: left;
+    
+}
+
+#stick{
+    height: 10px;
+    width: 4px;
+    background-color: rgb(224, 19, 207);
+    position: relative;
+    top: 1px;
+    left: 108px;
+}
+
+#cup{
+    height: 9px;
+    width: 11px;
+    background-color: rgb(224, 19, 207);
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    top: 1px;
+    left: 105px;
+}
+
+#p1{
+    height: 5px;
+    width: 4px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 7px;
+    left: 3px;
+}
+
+#p2{
+    height: 5px;
+    width: 4px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 7px;
+    left: 1px;
+}
+
+#coll{
+    height: 4px;
+    width: 28px;
+    background-color: red;
+    position: relative;
+    top: -65px;
+    left: 95px;
+}
+
+#jhun{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: goldenrod;
+    position: relative;
+    top: -65px;
+    left: 105px;
+}
+
+#nl{
+    height: 6px;
+    width: 1px;
+    background-color: black;
+    position: relative;
+    top: -28px;
+    left: 108px;
+}
+
+#tong{
+    width: 22px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    top: 0px;
+    left: 6px;
+}
+
+#heli2{
+    height: 7px;
+    width: 26px;
+    background-color: rgb(224, 19, 207);
+    transform: rotate(0deg);
+    margin-top: 258px;
+    margin-left: 112px;
+}
+#circle {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 60, 255);
+    border-radius: 50%;
+    left: 85px;
+    margin-top: -75px;
+    position: relative;
+    top: 75px;
+}
+
+#whit{
+    width: 42px;
+    height: 38px;
+    border-radius: 60%;
+    background-color: white;
+    position: relative;
+    top: 36px;
+    left: 89px;
+}
+
+#eye1 {
+    width: 9px;
+    height: 14px;
+    background-color: white;
+    border-radius: 33%;
+    position: relative;
+    top: -9px;
+    left: 98px;
+    border: 1px solid black;
+}
+
+#eye2 {
+    width: 9px;
+    height: 14px;
+    background-color: white;
+    border-radius: 33%;
+    position: relative;
+    top: -25px;
+    left: 110px;
+    border: 1px solid black;
+}
+
+#mouth {
+    width: 33px;
+    height: 17px;
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(94, 0, 0);
+    transform: rotate(180deg);
+    position: relative;
+    top: -34px;
+    left: 93px;
+}
+
+#ml1{
+    width: 10px;
+    height: 1px;
+    background-color: black;
+    border-radius: 7px 7px 0 0;
+    position: relative;
+    top: -35px;
+    left: 90px;
+    transform: rotate(18deg);
+}
+
+#ml2{
+    width: 10px;
+    height: 1px;
+    background-color: black;
+    border-radius: 7px 7px 0 0;
+    position: relative;
+    top: -31.5px;
+    left: 90px;
+    transform: rotate(0deg);
+}
+
+#ml3{
+    width: 10px;
+    height: 1px;
+    background-color: black;
+    border-radius: 7px 7px 0 0;
+    position: relative;
+    top: -29.5px;
+    left: 90px;
+    transform: rotate(341deg);
+}
+
+#mr1{
+    width: 10px;
+    height: 1px;
+    background-color: black;
+    border-radius: 7px 7px 0 0;
+    position: relative;
+    top: -39px;
+    left: 119px;
+    transform: rotate(340deg);
+}
+
+#mr2{
+    width: 10px;
+    height: 1px;
+    background-color: black;
+    border-radius: 7px 7px 0 0;
+    position: relative;
+    top: -36px;
+    left: 120px;
+    transform: rotate(0deg);
+}
+
+#mr3{
+    width: 10px;
+    height: 1px;
+    background-color: black;
+    border-radius: 7px 7px 0 0;
+    position: relative;
+    top: -34px;
+    left: 120px;
+    transform: rotate(14deg);
+}
+
+#oval{
+    width: 44px;
+    height: 51px;
+    background-color: rgb(0, 60, 255);
+    border-radius: 31%;
+    position: relative;
+    margin-top: -32px;
+    margin-left: 88px;
+
+}
+
+#cir{
+    height: 44px;
+    width: 44px;
+    background-color: white;
+    border-radius: 51%;
+    position: relative;
+    top: -51px;
+    left: 88px;
+}
+
+#pocket {
+    width: 29px;
+    height: 17px;
+    border-radius: 50% 50% 0 0;
+    background-color: rgba(255, 255, 255, 0.822);
+    border: 1px solid black;
+    transform: rotate(180deg);
+    position: relative;
+    top: -73px;
+    left: 94px;
+}
+
+#nose{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    top: -28px;
+    left: 105px;
+}
+
+#rh{
+    width: 8px;
+    height: 30px;
+    background-color: rgb(0, 60, 255);
+    position: relative;
+    margin-left: 132px;
+    margin-top: -98px;
+    transform: rotate(228deg);
+    top: -37px;
+    border-radius: 60px;
+}
+
+#rhr{
+    width: 1pc;
+    height: 13px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: -72px;
+    left: 143px;
+    transform: rotate(0deg);
+    
+}
+
+#lhr{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: -72px;
+    left: 64px;
+    transform: rotate(0deg);
+}
+
+#lh{
+    width: 8px;
+    height: 30px;
+    background-color: rgb(0, 60, 255);
+    position: relative;
+    margin-top: -40px;
+    margin-left: 81px;
+    top: -39px;
+    transform: rotate(314deg);
+    border-radius: 60px;
+
+}
+
+#ll{
+    width: 16px;
+    height: 13px;
+    background-color: white;
+    position: relative;
+    margin-top: -13px;
+    margin-left: 92px;
+    border-radius: 50%;
+
+}
+
+#rl{
+    width: 16px;
+    height: 12px;
+    background-color: white;
+    position: relative;
+    margin-top: -10px;
+    margin-left: 113px;
+    top: -1px;
+    border-radius: 50%;
+}
+
+#btn{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 252px;
+}
+
+#fly {
+    margin-top: -77px;
+    margin-left: 413px;
+    position: relative;
+    top: -231px;
+    left: -10px;
+}

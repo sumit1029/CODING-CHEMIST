@@ -1,0 +1,107 @@
+body {
+    margin-left: 200px;
+    margin-right: 268px;
+    /* margin-top: 200px; */
+    /* margin-bottom: 200px; */
+}
+ 
+li {
+    margin-left: -40px;
+}
+.new {
+    
+    margin-right: 50px;
+    /* background-color : none; */
+    overflow: hidden;
+}
+
+.new a {
+    background-color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: -16px;
+    margin-left: 4px;
+    text-align: center;
+    opacity: 90%;
+    float: left;
+    font-size: 20px;
+    
+}
+
+a:hover{
+    background-color: gray;
+    opacity: 100%;
+}
+
+#p1,#p2,#p3 {
+    margin-left: 200px;
+    margin-top: -44px;
+}
+
+
+#banner{
+    
+    padding-right: 0;
+    margin-top: 0;
+    padding: 2%;
+    /* margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px; */
+    background-color: darkgreen;
+    color: white;
+    align-items: center;
+    align-content: center;
+    font-size: 15px;
+
+}
+ 
+#image{
+    position: absolute;
+    height: 180px;
+    /* width: 200px; */
+    margin-top: -252px;
+    margin-left: 614px;
+}
+
+a{
+    color: white;
+}
+
+.content {
+    margin-top: 60px;
+}
+
+.content p{
+    font-size: 20px;
+}
+
+.content li{
+    font-size: 20px;
+}
+
+.content h1{
+    font-size: 30px;
+    color: Red;
+}
+
+.iconify {
+    padding: 0;
+    font-size: 25px;
+    margin-bottom: 2px;
+    margin-left: -134px;
+}
+
+#imp{
+    margin-bottom: -28px;
+}
+
+#code {
+    padding: 0;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+
+.content{
+    color: rgb(24, 154, 230);
+}

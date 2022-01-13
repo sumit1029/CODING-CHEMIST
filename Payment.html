@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Singup form</title>
+        <link rel="stylesheet" href="css/trial.css">
+    </head>
+    <body>
+        
+        <form action="doremon.html">
+            <h1>Payment Form</h1>
+            <p id="required"><marquee direction="right" behavior="scroll" scrolldelay="0sec" bgcolor="green"><b>Required fields are followed by *</b></marquee></p>
+            <hr>
+            <h2>Contact Information</h2>
+            <p>Name:*&nbsp;&nbsp;<input type="text" name="name" placeholder="Sumit Kumar" required></p>
+            <fieldset>
+                <p>Gender:*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    
+                        Male<input type="radio" name="gender" id="gender">
+                        Female<input type="radio" name="gender" id="gender">
+                        Other<input type="radio" name="gender" id="gender">
+                    
+                </p>
+            </fieldset>
+            <p>Address:&nbsp;&nbsp; <textarea name="address" id="address" cols="30" rows="5"></textarea></p>
+            <p>Email:*&nbsp;&nbsp; <input type="email" name="email" id="email" placeholder="abc@mail.com" required></p>
+            <p>Pincode:&nbsp;&nbsp; <input type="number" name="pincode" id="pincode"></p>
+            <hr>
+            <h2>Payment Information</h2>
+            <p>Card Type:*&nbsp;&nbsp;
+                <select name="cardtype" id="cardtype" required>
+                    <option value="">---Select a Card Type---</option>
+                    <option value="visa">Visa</option>
+                    <option value="master card">Master Card</option>
+                    <option value="rupay">Rupay</option>
+                </select>
+            </p>
+            <p>
+                Card Number *&nbsp;&nbsp; <input type="number" name="cardnumber" id="cardnumber" placeholder="16 digits" required>
+            </p>
+            <p>
+                Expiration date *&nbsp;&nbsp; <input type="date" name="expdate" id="expdate" required>
+            </p>
+            <p>
+                CVV *&nbsp;&nbsp; <input type="password" name="cvv" id="cvv" required>
+            </p>
+            <p>
+                You are not a robot *&nbsp;&nbsp; <input type="checkbox" name="confirm" id="confirm" required>
+            </p>
+            <p><input type="submit" value="Pay Now"></p>
+        </form>
+
+        <script src="javascript/script.js"></script>
+    </body>
+</html>

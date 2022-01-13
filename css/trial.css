@@ -1,0 +1,62 @@
+h1,h2,p,legend,input,fieldset{
+    text-align: center;
+    
+}
+body{
+    background-image: url(back.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    text-shadow: 10px 10px 5px black;
+    color: greenyellow;
+    font-size: 60px;
+    padding: none;
+    
+}
+h2{
+    text-shadow: 6px 6px 4px black;
+    color: lightcoral;
+    font-size: 35px;
+    padding: 20px;
+}
+p,legend{
+    font-size: 20px;
+    color: cornsilk;
+    font-weight: 700;
+}
+input,textarea,select{
+    max-width: 225px;
+    color: chocolate;
+    font-size: 18px;
+}
+
+fieldset{
+    border: none;
+}
+
+
+
+#required{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    
+    animation-delay: 0sec;
+/*
+    align-items: center;
+    align-content: center;
+*/
+    margin-right: 0px;
+    margin-left: 0px;
+    color: red;
+    font-weight: 300;
+   
+    font-size: 20px;
+}
+input:placeholder-shown{
+    text-align: left;
+}
