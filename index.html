@@ -13,69 +13,73 @@
     
 <body>
     <header>
-        <h1>CODING CHEMIST</h1>
+        <div id="banner"></div>
     </header>
     
     <nav>
-        <a href="index.html"><i class="fa fa-home"></i>&nbsp;Home</a>
-        <a href="course.html"><i class="fa fa-edit"></i>&nbsp;Courses</a>
-        <a href="#"><i class="fa fa-users"></i>&nbsp;About Us</a>
-        <a href="login.html"><i class="fa fa-user"></i>&nbsp;Login/singup</a>
-        <a href="Payment.html" target="_blank"><i class="fa fa-clone"></i>&nbsp;Donate</a>
-        <a href="doremon.html"><i class="fa fa-user"></i>&nbsp;Logout</a>
+        <a href="index.html"><i class="fa fa-home"></i>&nbsp;<b>Home</b></a>
+        <a href="course.html"><i class="fa fa-edit"></i>&nbsp;<b>Courses</b></a>
+        <a href="#"><i class="fa fa-users"></i>&nbsp;<b>About Us</b></a>
+        <a href="login.html"><i class="fa fa-user"></i>&nbsp;<b>Login/singup</b></a>
+        <a href="Payment.html" target="_blank"><i class="fa fa-clone"></i>&nbsp;<b>Donate</b></a>
+        <a href="doremon.html"><i class="fa fa-user"></i>&nbsp;<b>Logout</b></a>
 
     </nav>
     
     <main>
-        <section>
-            <h2>MY WORKS</h2>
+        <h2>MY WORKS</h2>
+        <section id = "container1">
+            
             <a href="https://github.com/sumit1029/Javascript_Animation" target="_blank" alt="poster">
-                <img src="images/p2.png" width="33%">
+                <img src="images/p2.png" width="100%">
             </a>
             <a href="https://github.com/sumit1029/My_Project" target="_blank" alt="poster">
-                <img src="images/p1.png" width="33%">
+                <img src="images/p1.png" width="100%">
             </a>
             <a href="https://github.com/sumit1029/Data-visualization" target="_blank" alt="poster">
-                <img src="images/p3.png" width="33%">
+                <img src="images/p3.png" width="100%">
             </a>
         </section>
-        <section>
-            <h2>MY REVIEWS</h2>
-            
-                <img src="images/r3.png" width="33%">
-            
-            
-                <img src="images/r1.png" width="33%">
-           
-            
-                <img src="images/r2.png" width="33%">
-           
-        </section>
-        <section>
-            <h2>MY README CONTENT</h2>
-            <button onclick="prev()"> Prev </button>
-            <a href="https://www.youtube.com/channel/UC3K2nGS4rvTfPlh-Rzx80OA" id="aslider" target="_blank">
-                <img id="slider" src="images/m1.png" width="800px" height="600px"/>
-            </a>
-            <button onclick="next()"> Next </button>
-        </section>
-        <section>
-            <h2>OUR FOUNDER</h2>
-            <img src="images/found.jpg" alt="THis is Sumit Kumar" width="30%">
-            <h3>Sumit Kumar</h3>
 
+        <h2>MY REVIEWS</h2>
+        <section id = "container2">
+            
+            
+                <div><img src="images/r3.png" width="100%"></div>
+            
+            
+                <div><img src="images/r1.png" width="100%"></div>
+           
+            
+                <div><img src="images/r2.png" width="100%"></div>
+           
+        </section>
+
+        <h2>MY README CONTENT</h2>
+        <section id="container3">
+            
+            <div><button onclick="prev()" style="display: flex; max-width: 80px; max-height: 80px;"> Prev </button></div>
+            <div id = "s1"><a href="https://www.youtube.com/channel/UC3K2nGS4rvTfPlh-Rzx80OA" id="aslider" target="_blank">
+                <img id="slider" src="images/m1.png" width="80%">
+            </a></div>
+            <div><button onclick="next()" style="display: flex; max-width: 80px; max-height: 80px;"> Next </button></div>
+        </section>
+
+        <h2>OUR FOUNDER</h2>
+        <img src="images/found.jpg" alt="THis is Sumit Kumar" width="30%">
+        <h3>Sumit Kumar</h3>
+        <section id="container4">
             <div class = "new">
-                <h3><b><a href="https://www.linkedin.com/in/sumit-kumar-56b30a202" target="_blank" class="fa fa-linkedin" style="color: rgb(93, 14, 219);font-weight:900;">           &nbsp; linkedin</a></b></h3>
-                <h3><b><a href="https://www.facebook.com/profile.php?id=100025141931898" target="_blank" class="fa fa-facebook" style="color: blue;font-weight:900;">        &nbsp;  Facebook</a></b></h3>
-                <h3><b><a href="https://www.instagram.com/sumitnaveen029/" target="_blank" class="fa fa-instagram" style="color: rgb(235, 15, 107);font-weight:900;;"">        &nbsp;  Instagram</a></b></h3>
-                <h3><b><a href="https://www.youtube.com/channel/UC3K2nGS4rvTfPlh-Rzx80OA" target="_blank" class="fa fa-youtube" style="color: rgb(216, 25, 25);font-weight:900;;"">        &nbsp;  YouTube</a></b></h3>
-                <h3><b><a href="https://www.codechef.com/users/sumit_1029" target="_blank" style="color: saddlebrown;font-weight:900;" id = "imp"><span class="iconify-inline" data-icon="simple-icons:codechef"></span> &nbsp; CodeChef</a></b></h3>
+                <div><a href="https://www.linkedin.com/in/sumit-kumar-56b30a202" target="_blank" class="fa fa-linkedin" style="color: rgb(93, 14, 219);font-weight:900;">           &nbsp; linkedin</a></div>
+                <div><a href="https://www.facebook.com/profile.php?id=100025141931898" target="_blank" class="fa fa-facebook" style="color: blue;font-weight:900;">        &nbsp;  Facebook</a></div>
+                <div><a href="https://www.instagram.com/sumitnaveen029/" target="_blank" class="fa fa-instagram" style="color: rgb(235, 15, 107);font-weight:900;;"">        &nbsp;  Instagram</a></div>
+                <div><a href="https://www.youtube.com/channel/UC3K2nGS4rvTfPlh-Rzx80OA" target="_blank" class="fa fa-youtube" style="color: rgb(216, 25, 25);font-weight:900;;"">        &nbsp;  YouTube</a></div>
+                <div><a href="https://www.codechef.com/users/sumit_1029" target="_blank" style="color: saddlebrown;font-weight:900;" id = "imp"><span class="iconify-inline" data-icon="simple-icons:codechef"></span> &nbsp; CodeChef</a></div>
             </div>
-
-            
-            <h4>Young innovative <em>self thought learner</em> #Coder on his own #Skillfull in all types of programming.</h4>
-            <h5>Hellow guys, I hope that you all are doing well.As you all know that being a self emerging artist I really do need a lots of support from you all, to trace my footsteps in the field I have dived into.Your support not only promotes my work but also makes me motivated to provide you with the best I have got.Thanks for praiseing my work .Do join and follow me on youtube and instagram with above links.</h5>
         </section>
+
+        <h4>Young innovative <em>self thought learner</em> #Coder on his own #Skillfull in all types of programming.</h4>
+        <h5>Hellow guys, I hope that you all are doing well.As you all know that being a self emerging artist I really do need a lots of support from you all, to trace my footsteps in the field I have dived into.Your support not only promotes my work but also makes me motivated to provide you with the best I have got.Thanks for praiseing my work .Do join and follow me on youtube and instagram with above links.</h5>
     </main>
     
     <footer>
