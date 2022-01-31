@@ -16,7 +16,13 @@ header h1 {
 
 header {
     padding: 40px;
-    background-color: rgb(17, 124, 143);
+    background-color: rgb(255 210 64);
+    background-image: url(v1.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 500px;
+    background-position-x: center;
+    height: 200px;
 }
 
 nav {
@@ -45,9 +51,9 @@ section:nth-child(even) {
     background-color: rgb(241, 241, 241);
 }
 
-section {
+/* section {
     min-height: 100vh;
-}
+} */
 
 video {
     padding: 10px;
@@ -80,25 +86,66 @@ footer a {
 
 .new {
     
-    margin-right: 50px;
+    
     /* background-color : none; */
-    overflow: hidden;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: row;
 }
 
 .new a {
     background-color: white;
     text-decoration: none;
-    padding: 20px;
-    margin-top: -16px;
-    margin-left: 94px;
-    text-align: center;
+    /* padding: 20px; */
+    margin-top: 2%;
+    margin-left: 30%;
+    /* text-align: center; */
     opacity: 90%;
     float: left;
-    font-size: 20px;
+    
     
 }
 
 a:hover{
     background-color: gray;
     opacity: 100%;
+    color: rgb(255, 0, 0);
 }
+
+#container1, #container2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#container3 {
+    display: flex;
+    align-content: center;
+
+}
+
+#container3 div {
+    width: 50%;
+    /* margin-left: 15%; */
+    align-items: center;
+}
+
+#container4 {
+    display: flex;
+}
+
+#container4 div {
+    width: 100%;
+    font-size: 100%;
+}
+
+
+
+button {
+    margin-top: 50%;
+    margin-left: 38%;
+    padding-top : 30px;
+}
+
+
+
+
