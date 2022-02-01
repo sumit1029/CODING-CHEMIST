@@ -140,12 +140,17 @@ a:hover{
 
 
 
-button {
+#container3 div button {
     margin-top: 50%;
     margin-left: 38%;
     padding-top : 30px;
 }
 
+
+#course1 {
+    display: flex;
+    flex-direction: column;
+}
 
 
 
