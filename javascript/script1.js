@@ -8,6 +8,11 @@ var links = [
     'cv.html'
 ];
 
+var alts = [
+    'Visit to My Channel',
+    'My Resume'
+ ];
+
 var num = 0;
 var num2 = 0;
 function next() {
@@ -36,5 +41,6 @@ function prev() {
         num2 = links.length-1;
     }
     slider.src = images[num];
+    slider.alt = alts[num];
     slider2.href = links[num2];
 }
