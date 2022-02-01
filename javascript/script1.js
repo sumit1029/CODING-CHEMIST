@@ -1,6 +1,6 @@
 var images = [
-    '../images/m1.png',
-    '../images/m2.png'
+    'm1.png',
+    'm2.png'
 ];
 
 var links = [
